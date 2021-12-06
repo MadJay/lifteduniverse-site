@@ -3,7 +3,7 @@ helm:
   minor_version: "0"
   type: helm
   chart_dir: helm
-  chart_name: proserve-apibridge
+  chart_name: wcl-cms-api
 
 cms-api:
   major_version: "0"
