@@ -1,0 +1,14 @@
+helm:
+  major_version: "0"
+  minor_version: "0"
+  type: helm
+  chart_dir: helm
+  chart_name: proserve-apibridge
+
+cms-api:
+  major_version: "0"
+  minor_version: "0"
+  type: docker
+  docker_dir: .
+  docker_file: Dockerfile
+  image_name: wcl-cms-api
