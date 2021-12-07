@@ -1,0 +1,11 @@
+# file:credentials.yaml
+{{- define "mychart.dockerconfigjson" }}
+{{"{"}}"auths":{{"{"}}"{{ default "index.docker.io" .host }}":{{"{"}}"username":"{{ .username }}","password":"{{ .password }}"{{"}}}"}}
+{{- end }}
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/dockerconfigjson
+metadata:
+  name: wowzaprivate
+data:
+  .dockerconfigjson: {{ include "mychart.dockerconfigjson" .Values.registry_creds | b64enc }}

@@ -1,0 +1,27 @@
+# Default values for wcl-cms-api.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+
+
+
+cluster_issuer: letsencrypt-prod
+
+vanity_hostname:
+  # Set 'suffix' to a string to enable, and a 'false' bool to disable
+  #suffix: ".cloud.wowza.com"
+  # Set to 'true' to disable cluster hostnames
+  vanity_only: false
+  # Set 'hostname_environment_override' to a string (including blank) to enable, comment out to disable
+  #hostname_environment_override: ""
+  # Use these if we want to provide our own cert
+  #crt: |-
+  #key: |-
+
+cms_api:
+  replicaCount: 2
+  image:
+    repository: "quay.io/wowzaprivate/wcl-cms-api"
+    tag: null
+
+registry_creds: {}
