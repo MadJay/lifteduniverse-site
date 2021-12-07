@@ -21,7 +21,7 @@ spec:
           image: "{{ .Values.cms_api.image.repository }}:{{  required "Must Supply .Values.cms_api.image.tag" .Values.cms_api.image.tag }}"
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 80
               protocol: TCP
           # livenessProbe:
           #   httpGet:
