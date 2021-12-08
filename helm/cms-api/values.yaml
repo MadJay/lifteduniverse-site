@@ -23,5 +23,11 @@ cms_api:
   image:
     repository: "quay.io/wowzaprivate/wcl-cms-api"
     tag: null
+  resources:
+    requests:
+      cpu: 10m
+      memory: 30Mi
+    limits:
+      memory: 60Mi
 
 registry_creds: {}
