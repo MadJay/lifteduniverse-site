@@ -30,7 +30,7 @@ end
 
 def check_project_exists(bearer_token, root, project_name)
 	# Set the request to search the project by name
-	uri = URI.parse(root + "/api/projects" + "?q=name:#{project_name}")
+	uri = URI.parse(root + "api/projects" + "?q=name:#{project_name}")
 	# These headers are required for Black Duck to return correct response text
 	header = {
 		'Content-Type'	=> 'application/json',
