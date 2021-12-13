@@ -96,6 +96,6 @@ jobs:
           name: Run Coverity Scan
           no_output_timeout: 40m
           environment:
-            SCANNER_IMAGE: "quay.io/wowzaprivate/wowza-coverity-scanner:0.1.15"
+            SCANNER_IMAGE: "quay.io/wowzaprivate/wowza-coverity-scanner:0.1.16"
             DEBUG: "on"
           command: ". ./.circleci/jobs/scan-coverity.sh"
