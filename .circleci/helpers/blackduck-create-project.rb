@@ -58,7 +58,7 @@ def check_project_exists(bearer_token, root, project_name)
 end
 
 def create_project(bearer_token, root, project_name, version_name)
-	uri = URI.parse(root + "/api/projects")
+	uri = URI.parse(root + "api/projects")
 	# These headers are required for Black Duck to return correct response text
 	header = {
 		'Content-Type'	=> 'application/vnd.blackducksoftware.project-detail-4+json',
