@@ -20,7 +20,7 @@ cms-api:
       scan_paths:
       - "./"
   scan_coverity:
-    - project: "cms"
+    - project: "cms-api"
       stages:
         - name: "release"
           stream_name: "cms-api-release"
