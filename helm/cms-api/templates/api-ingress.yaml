@@ -1,0 +1,46 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: cms-api
+  labels:
+    app: cms-api
+  annotations: {}
+spec:
+  tls:
+{{- if ( include "using_cluster_hostname" . ) }}
+    - hosts:
+      - "{{ include "render_cluster_hostname" (dict "global" $   "prefix" "cms-api") }}"
+      secretName: cluster-certificate
+{{- end }}
+{{- if ( include "using_vanity_hostname" . ) }}
+    - hosts:
+      - "{{ include "render_vanity_hostname" (dict "global" $   "prefix" "cms-api") }}"
+    {{- if and .Values.vanity_hostname.crt .Values.vanity_hostname.key }}
+      # Using our own provided cert
+      secretName: vanity-certificate
+    {{- else if .Values.vanity_hostname.create_vanity_cert }}
+      # Using the cert we're creating with Letsencrypt
+      secretName: vanity-certificate
+    {{- else }}
+    # Using cluster ingress' default cert
+    {{- end }}
+{{- end }}
+  rules:
+{{- if ( include "using_cluster_hostname" . ) }}
+    - host: "{{ include "render_cluster_hostname" (dict "global" $   "prefix" "cms-api") }}"
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: cms-api
+              servicePort: http
+{{- end }}
+{{- if ( include "using_vanity_hostname" . ) }}
+    - host: "{{ include "render_vanity_hostname" (dict "global" $   "prefix" "cms-api") }}"
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: cms-api
+              servicePort: http
+{{- end }}

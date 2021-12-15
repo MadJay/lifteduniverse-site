@@ -1,0 +1,238 @@
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   labels:
+#     app: cloud-ui
+#     deptype: main
+#     segment: default
+#   name: cloud-ui-default
+#   namespace: cloud-ux-qa
+# spec:
+#   progressDeadlineSeconds: 600
+#   replicas: 2
+#   revisionHistoryLimit: 2
+#   selector:
+#     matchLabels:
+#       app: cloud-ui
+#       deptype: main
+#       segment: default
+#   strategy:
+#     rollingUpdate:
+#       maxSurge: 25%
+#       maxUnavailable: 25%
+#     type: RollingUpdate
+#   template:
+#     metadata:
+#       annotations:
+#         cattle.io/timestamp: 2021-12-08T01:11:40Z
+#         field.cattle.io/ports: '[[{"containerPort":3000,"dnsName":"cloud-ui-default","kind":"ClusterIP","name":"http","protocol":"TCP"},{"containerPort":9293,"dnsName":"cloud-ui-default","kind":"ClusterIP","name":"pumactl","protocol":"TCP"}],[{"containerPort":80,"dnsName":"cloud-ui-default","kind":"ClusterIP","name":"http","protocol":"TCP"}]]'
+#       creationTimestamp: null
+#       labels:
+#         app: cloud-ui
+#         deptype: main
+#         segment: default
+#     spec:
+#       containers:
+#       - env:
+#         - name: APPLICATION_HOST
+#           value: ui-qa.cloud.wowza.com
+#         - name: CLOUD_UX_PURPOSE
+#           value: cloud_ui
+#         - name: ENVIRONMENT
+#           value: qa
+#         - name: RACK_TIMEOUT_SERVICE_TIMEOUT
+#           value: "120"
+#         - name: RAILS_ASSET_HOST
+#           value: ui-qa.cloud.wowza.com
+#         - name: RAILS_ENV
+#           value: production
+#         - name: RAILS_MASTER_KEY
+#           value: XXXXXXXXX
+#         - name: RAILS_MAX_THREADS
+#           value: "16"
+#         - name: SECRET_KEY_BASE
+#           value: XXXXXXXXX
+#         - name: WEB_CONCURRENCY
+#           value: "5"
+#         image: quay.io/wowzaprivate/cloud-ux:1.149.2
+#         imagePullPolicy: IfNotPresent
+#         livenessProbe:
+#           failureThreshold: 5
+#           httpGet:
+#             httpHeaders:
+#             - name: Host
+#               value: ui-qa.cloud.wowza.com
+#             path: /johnny_5/alive
+#             port: 80
+#             scheme: HTTP
+#           initialDelaySeconds: 60
+#           periodSeconds: 10
+#           successThreshold: 1
+#           timeoutSeconds: 10
+#         name: cloud-ui-application
+#         ports:
+#         - containerPort: 3000
+#           name: http
+#           protocol: TCP
+#         - containerPort: 9293
+#           name: pumactl
+#           protocol: TCP
+#         readinessProbe:
+#           failureThreshold: 2
+#           httpGet:
+#             httpHeaders:
+#             - name: Host
+#               value: ui-qa.cloud.wowza.com
+#             path: /johnny_5/alive
+#             port: 80
+#             scheme: HTTP
+#           initialDelaySeconds: 20
+#           periodSeconds: 10
+#           successThreshold: 1
+#           timeoutSeconds: 8
+#         resources:
+#           limits:
+#             memory: 2000Mi
+#           requests:
+#             cpu: 250m
+#             memory: 2000Mi
+#         terminationMessagePath: /dev/termination-log
+#         terminationMessagePolicy: File
+#         volumeMounts:
+#         - mountPath: /opt/wowza/config
+#           name: cloud-ux-config
+#         - mountPath: /settings
+#           name: settings-yaml
+#       - command:
+#         - ./watch-puma.sh
+#         image: quay.io/wowzaprivate/cloud-ux:1.149.2
+#         imagePullPolicy: IfNotPresent
+#         name: cloud-ui-puma-watcher
+#         resources: {}
+#         terminationMessagePath: /dev/termination-log
+#         terminationMessagePolicy: File
+#       - env:
+#         - name: ENVIRONMENT
+#           value: qa
+#         - name: RAILS_ENV
+#           value: production
+#         image: quay.io/wowzaprivate/cloud-ux-nginx:114.109.0
+#         imagePullPolicy: IfNotPresent
+#         name: cloud-ui-nginx
+#         ports:
+#         - containerPort: 80
+#           name: http
+#           protocol: TCP
+#         readinessProbe:
+#           failureThreshold: 3
+#           httpGet:
+#             httpHeaders:
+#             - name: Host
+#               value: ui-qa.cloud.wowza.com
+#             path: /build_info.json
+#             port: 80
+#             scheme: HTTP
+#           initialDelaySeconds: 3
+#           periodSeconds: 30
+#           successThreshold: 1
+#           timeoutSeconds: 1
+#         resources:
+#           limits:
+#             memory: 250Mi
+#           requests:
+#             cpu: 100m
+#             memory: 250Mi
+#         terminationMessagePath: /dev/termination-log
+#         terminationMessagePolicy: File
+#         volumeMounts:
+#         - mountPath: /etc/nginx/sites-enabled
+#           name: nginx-sites-enabled
+#         - mountPath: /volumes/public
+#           name: cloud-ux-public
+#       dnsPolicy: ClusterFirst
+#       imagePullSecrets:
+#       - name: wowzaprivate
+#       initContainers:
+#       - args:
+#         - -c
+#         - bin/get-config.sh /volumes/config
+#         command:
+#         - /bin/bash
+#         env:
+#         - name: AWS_ACCESS_KEY_ID
+#           value: XXXXXXXX
+#         - name: AWS_DEFAULT_REGION
+#           value: us-east-1
+#         - name: AWS_SECRET_ACCESS_KEY
+#           value: XXXXXXXX
+#         - name: ENVIRONMENT
+#           value: qa
+#         - name: RAILS_MASTER_KEY
+#           value: XXXXXXXX
+#         image: quay.io/wowzaprivate/cloud-ux:1.149.2
+#         imagePullPolicy: IfNotPresent
+#         name: cloud-ui-get-config
+#         resources:
+#           limits:
+#             memory: 512Mi
+#           requests:
+#             cpu: 250m
+#             memory: 512Mi
+#         terminationMessagePath: /dev/termination-log
+#         terminationMessagePolicy: File
+#         volumeMounts:
+#         - mountPath: /volumes/config
+#           name: cloud-ux-config
+#       - args:
+#         - -c
+#         - bin/prepare-nginx.sh
+#         command:
+#         - /bin/bash
+#         env:
+#         - name: ENVIRONMENT
+#           value: qa
+#         - name: PUMA_HOST_NAME
+#           value: 127.0.0.1
+#         - name: HOST_NAME
+#           value: ui-qa.cloud.wowza.com
+#         - name: CLOUD_UX_PURPOSE
+#           value: cloud_ui
+#         - name: RAILS_ENV
+#           value: production
+#         - name: CLOUD_UX_BUILD
+#           value: 1.149.2
+#         - name: NGINX_BUILD
+#           value: 114.109.0
+#         - name: RAILS_MASTER_KEY
+#           value: XXXXXXXX
+#         image: quay.io/wowzaprivate/cloud-ux:1.149.2
+#         imagePullPolicy: IfNotPresent
+#         name: cloud-ui-prepare-nginx
+#         resources:
+#           limits:
+#             memory: 512Mi
+#           requests:
+#             cpu: 250m
+#             memory: 512Mi
+#         terminationMessagePath: /dev/termination-log
+#         terminationMessagePolicy: File
+#         volumeMounts:
+#         - mountPath: /volumes/sites-enabled
+#           name: nginx-sites-enabled
+#         - mountPath: /volumes/public
+#           name: cloud-ux-public
+#       restartPolicy: Always
+#       schedulerName: default-scheduler
+#       securityContext: {}
+#       terminationGracePeriodSeconds: 30
+#       volumes:
+#       - emptyDir: {}
+#         name: cloud-ux-config
+#       - emptyDir: {}
+#         name: cloud-ux-public
+#       - emptyDir: {}
+#         name: nginx-sites-enabled
+#       - configMap:
+#           defaultMode: 420
+#           name: settings-yaml
+#         name: settings-yaml

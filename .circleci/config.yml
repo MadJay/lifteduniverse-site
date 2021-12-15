@@ -31,6 +31,27 @@ workflows:
             branches:
               ignore: /.*/
 
+  # For triggering individual scans via tags
+  start-scan-blackduck:
+    jobs:
+      - scan-blackduck:
+          context: wcl-cms-build
+          filters:
+            tags:
+              only: /^start-scan-blackduck\/.*/
+            branches:
+              ignore: /.*/
+
+  start-scan-coverity:
+    jobs:
+      - scan-coverity:
+          context: wcl-cms-build
+          filters:
+            tags:
+              only: /^start-scan-coverity\/.*/
+            branches:
+              ignore: /.*/
+
 jobs:
   start-component-build:
     docker:
@@ -51,3 +72,30 @@ jobs:
       - run:
           name: Build Version Tagged Component
           command: ". ./.circleci/jobs/build-version-tagged-component.sh"
+
+  scan-blackduck:
+    docker:
+      - image: quay.io/wowzaprivate/wowza-builder:1.1.2
+    steps:
+      - setup_remote_docker
+      - checkout
+      - run:
+          name: Run Black Duck Scan
+          environment:
+            SCANNER_IMAGE: "quay.io/wowzaprivate/wowza-blackduck-scanner:0.1.8"
+            DEBUG: "on"
+          command: ". ./.circleci/jobs/scan-blackduck.sh"
+
+  scan-coverity:
+    docker:
+      - image: quay.io/wowzaprivate/wowza-builder:1.1.2
+    steps:
+      - setup_remote_docker
+      - checkout
+      - run:
+          name: Run Coverity Scan
+          no_output_timeout: 40m
+          environment:
+            SCANNER_IMAGE: "quay.io/wowzaprivate/wowza-coverity-scanner:0.1.17"
+            DEBUG: "on"
+          command: ". ./.circleci/jobs/scan-coverity.sh"

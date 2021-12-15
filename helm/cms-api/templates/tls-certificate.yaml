@@ -1,0 +1,58 @@
+# This file needs to have every hostname that is used by the system
+# An SSL Cert will be procured from cert manager for each URL
+
+{{- if ( include "using_cluster_hostname" . ) }}
+---
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: cluster-certificate
+spec:
+  secretName: cluster-certificate
+  dnsNames:
+  - "{{ include "render_cluster_hostname" (dict "global" $   "prefix" "cms-api") }}"
+  acme:
+    config:
+    - http01:
+        ingressClass: nginx
+      domains:
+      - "{{ include "render_cluster_hostname" (dict "global" $   "prefix" "cms-api") }}"
+  issuerRef:
+    name: {{ .Values.cluster_issuer }}
+    kind: ClusterIssuer
+{{- end }}
+
+{{- if ( include "using_vanity_hostname" . ) }}
+  {{- if .Values.vanity_hostname.create_vanity_cert }}
+---
+  # Create a Letsencrypt certificate for the vanity hostname
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: vanity-certificate
+spec:
+  secretName: vanity-certificate
+  dnsNames:
+  - "{{ include "render_vanity_hostname" (dict "global" $   "prefix" "cms-api") }}"
+  acme:
+    config:
+    - http01:
+        ingressClass: nginx
+      domains:
+      - "{{ include "render_vanity_hostname" (dict "global" $   "prefix" "cms-api") }}"
+  issuerRef:
+    name: {{ .Values.cluster_issuer }}
+    kind: ClusterIssuer
+  {{- else if and .Values.vanity_hostname.crt .Values.vanity_hostname.key }}
+---
+  # Use our own certificate for the vanity hostname
+apiVersion: v1
+kind: Secret
+type: tls
+metadata:
+    name: vanity-certificate
+data:
+    tls.crt: {{ .Values.vanity_hostname.crt | b64enc }}
+    tls.key: {{ .Values.vanity_hostname.key | b64enc }}
+  {{- end }}
+{{- end }}

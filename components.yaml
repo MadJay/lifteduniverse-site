@@ -3,7 +3,7 @@ helm:
   minor_version: "0"
   type: helm
   chart_dir: helm
-  chart_name: wcl-cms-api
+  chart_name: cms-api
 
 cms-api:
   major_version: "0"
@@ -12,3 +12,22 @@ cms-api:
   docker_dir: .
   docker_file: Dockerfile
   image_name: wcl-cms-api
+  scan_blackduck:
+    - project: "cms-api"
+      stages:
+        - name: "release"
+          scan_version_name: "release"
+      scan_paths:
+      - "./"
+  scan_coverity:
+    - project: "cms-api"
+      stages:
+        - name: "release"
+          stream_name: "cms-api-release"
+      # Comma-separated values will be run as a sequence of 'cov-configure [blah]' commands
+      cov_configure: >-
+        --ruby, --html, --javascript
+      # If 3rd-party code (i.e. library code) is checked into this repo, please exclude it from static analysis by appending "--library-dir ruby=./lib/" or similar to this cov_capture command
+      cov_capture: "--source-dir ./"
+      cov_analyze: >-
+        --all --webapp-security --concurrency --security --enable-fb
