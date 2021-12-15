@@ -1,6 +1,6 @@
 FROM ruby:3.0.2
 
-ENV VCMS_API /home/app/vcms_api
+ENV VCMS_API /usr/src/app/vcms_api
 RUN mkdir -p $VCMS_API
 WORKDIR $VCMS_API
 
