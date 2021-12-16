@@ -17,7 +17,7 @@ gem 'logist'
 gem 'pundit'
 # JWT https://github.com/jwt/ruby-jwt
 gem 'jwt'
-
+gem 'rest-client'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production

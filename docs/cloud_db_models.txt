@@ -1,0 +1,69 @@
+1 mysql> describe recordings;
+2 +-----------------------+--------------+------+-----+---------+----------------+
+3 | Field | Type | Null | Key | Default | Extra |
+4 +-----------------------+--------------+------+-----+---------+----------------+
+5 | id | int | NO | PRI | NULL | auto_increment |
+6 | uid | varchar(255) | YES | MUL | NULL | |
+7 | state | varchar(255) | YES | MUL | NULL | |
+8 | transcoding_uptime_id | int | YES | MUL | NULL | |
+9 | cloud_account_id | int | YES | MUL | NULL | |
+10 | file_name | varchar(255) | YES | | NULL | |
+11 | file_size | bigint | YES | | 0 | |
+12 | download_url | varchar(255) | YES | | NULL | |
+13 | created_at | datetime | YES | MUL | NULL | |
+14 | updated_at | datetime | YES | MUL | NULL | |
+15 | provider | varchar(255) | YES | | NULL | |
+16 | reason | varchar(255) | YES | | NULL | |
+17 | duration | bigint | YES | | 0 | |
+18 | status_code | varchar(255) | YES | | NULL | |
+19 +-----------------------+--------------+------+-----+---------+----------------+
+20
+
+Vod Stream
+ 23 | Field | Type | Null | Key | Default | Extra |
+ 24 +-----------------------+--------------+------+-----+---------+----------------+
+ 25 | id | int | NO | PRI | NULL | auto_increment |
+ 26 | uid | varchar(255) | YES | MUL | NULL | |
+ 27 | state | varchar(255) | YES | MUL | NULL | |
+ 28 | type | varchar(255) | YES | MUL | NULL | |
+ 29 | name | varchar(255) | YES | MUL | NULL | |
+ 30 | parent_id | int | YES | MUL | NULL | |
+ 31 | cloud_account_id | int | YES | MUL | NULL | |
+ 32 | stream_target_id | int | YES | MUL | NULL | |
+ 33 | transcoding_uptime_id | int | YES | MUL | NULL | |
+ 34 | playback_url | varchar(255) | YES | | NULL | |
+ 35 | playback_enabled | tinyint(1) | YES | | 0 | |
+ 36 | started_at | datetime | YES | | NULL | |
+ 37 | size | bigint | YES | | 0 | |
+ 38 | duration | bigint | YES | | 0 | |
+ 39 | start_segment | int | YES | | 0 | |
+ 40 | end_segment | int | YES | | 0 | |
+ 41 | source | varchar(255) | YES | | NULL | |
+ 42 | percent_complete | float | YES | | 0 | |
+ 43 | created_at | datetime | NO | | NULL | |
+ 44 | updated_at | datetime | NO | | NULL | |
+ 45 +-----------------------+--------------+------+-----+---------+----------------+ 46
+
+Transcoders are47 mysql> describe transcoders;
+48 +-------------------------------+--------------+------+-----+------------+------------
+49 | Field | Type | Null | Key | Default | Extra
+50 +-------------------------------+--------------+------+-----+------------+------------
+51 | id | int | NO | PRI | NULL | auto_increm
+52 | uid | varchar(255) | YES | MUL | NULL |
+53 | reference_id | varchar(80) | YES | MUL | NULL |
+54 | type | varchar(255) | YES | | Transcoder |
+55 | name | varchar(255) | NO | MUL | NULL |
+56 | state | varchar(255) | YES | MUL | NULL |
+57 | profile_id | int | YES | MUL | NULL |
+58 | workflow_id | int | YES | MUL | NULL |
+59 | live_stream_id | int | YES | MUL | NULL |
+60 | source_delivery_method | varchar(255) | YES | MUL | NULL |
+61 | source_protocol | varchar(255) | YES | | NULL |
+62 | target_delivery_protocol | varchar(255) | YES | | NULL |
+63 | source_url | varchar(765) | YES | | NULL |
+64 | source_port | int | YES | | NULL |
+65 | stream_name | varchar(255) | YES | | NULL |
+66 | external_stream_name | varchar(255) | YES | | NULL |
+67 | application_name | varchar(255) | YES | | NULL |
+68 --- snip / truncated ---
+69
