@@ -2,7 +2,7 @@ require 'rest-client'
 module Wowza
   class WowzaBase < ApplicationService
 
-
+    #TODO move these to credentials
     API_KEY = "8Uj2S4cNopi5QPdr5IZYvZhTTE0b8kF49FsmVMZaYPNKJHvmaq3UD1CKEHJt3152"
     API_ACCESS_KEY = "j3tZDR8oTLbZXtLoavnYmCFNLJFyq8zwLo6fx1rArgdSFn6KvPPGOyTV75RC3454"
 
