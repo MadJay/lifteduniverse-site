@@ -3,17 +3,17 @@ module Api
 
     def index
       resp = Wowza::LiveStreams.call
-      list = resp['live_streams']
+      list = resp['vod_streams']
       page = resp['pagination']
       #success_response serialized_object CmsAssetSerializer, serializer: CmsAssetSerializer
-      success_response({live_streams: list})
+      #puts "#{resp}"
+      success_response(resp)
       #render json: { live_streams: list}
     end
 
     def show
       resp = Wowza::LiveStreamDetail.call(params[:id])
-      puts "#{resp}"
-      success_response({live_stream: resp})
+      success_response(resp)
     end
 
     private

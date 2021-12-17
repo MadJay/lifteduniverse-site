@@ -15,6 +15,7 @@ module Wowza
 
     def url_base(resource)
       "https://api.cloud.wowza.com/api/v1.7/#{resource}"
+      #"https://api.docs.cloud.wowza.com/current/tag/vod_streams"
     end
 
   end

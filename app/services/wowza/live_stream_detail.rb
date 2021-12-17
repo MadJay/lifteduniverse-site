@@ -9,7 +9,7 @@ module Wowza
     def  call
       response = RestClient::Request.new(
         method: :get,
-        url: url_base("live_streams/#{@id}"),
+        url: url_base("vod_streams/#{@id}"),
         headers: header_data
         #payload: sso_payload.to_json
       ).execute
