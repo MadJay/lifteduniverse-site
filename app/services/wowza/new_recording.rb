@@ -1,10 +1,15 @@
 require 'rest-client'
 module Wowza
-  class LiveStreams < WowzaBase
+  class NewRecording < WowzaBase
+
+    def initialize( uid, uploaded=false)
+      @uid = uid
+      @method = uploaded ? :put : :post
+    end
 
     def  call
       response = RestClient::Request.new(
-        method: :get,
+        method: @method,
         url: url_base('vod_streams'),
         headers: header_data
         #payload: sso_payload.to_json
@@ -14,5 +19,9 @@ module Wowza
     rescue => err
       raise StandardError, err.response.body
     end
+
+    private
+
+
   end
 end

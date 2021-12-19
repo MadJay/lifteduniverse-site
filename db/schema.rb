@@ -38,12 +38,13 @@ ActiveRecord::Schema.define(version: 2021_12_14_161459) do
   end
 
   create_table "cms_assets", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.string "name"
+    t.string "title"
     t.text "description"
     t.integer "account_id"
     t.integer "category_id"
     t.integer "status_id"
     t.boolean "is_published"
+    t.boolean "is_archived"
     t.string "vod_streams_uid"
     t.string "recording_uid"
     t.string "transcoder_uid"
@@ -53,6 +54,13 @@ ActiveRecord::Schema.define(version: 2021_12_14_161459) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["id"], name: "index_cms_assets_on_id"
     t.index ["uid"], name: "index_cms_assets_on_uid"
+  end
+
+  create_table "cms_assets_tags", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.integer "cms_assets_id"
+    t.integer "tag_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "playlist_assets", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
@@ -75,6 +83,12 @@ ActiveRecord::Schema.define(version: 2021_12_14_161459) do
   create_table "profiles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "uid"
     t.integer "account_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "tags", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

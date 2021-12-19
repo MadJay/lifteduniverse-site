@@ -1,12 +1,13 @@
 class CreateCmsAssets < ActiveRecord::Migration[6.1]
   def change
     create_table :cms_assets do |t|
-      t.string :name
+      t.string :title
       t.text :description
       t.integer :account_id
       t.integer :category_id
       t.integer :status_id
       t.boolean :is_published
+      t.boolean :is_archived
       t.string :vod_streams_uid
       t.string :recording_uid
       t.string :transcoder_uid
@@ -14,6 +15,18 @@ class CreateCmsAssets < ActiveRecord::Migration[6.1]
       t.string :uid
       t.timestamps
     end
+
+    create_table :cms_assets_tags do |t|
+      t.integer :cms_assets_id
+      t.integer :tag_id
+      t.timestamps
+    end
+
+    create_table :tags do |t|
+      t.string :name
+      t.timestamps
+    end
+
 
     create_table :playlists do |t|
       t.string :title

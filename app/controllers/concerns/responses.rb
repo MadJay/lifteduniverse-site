@@ -1,10 +1,10 @@
-module Concerns::Responses
+module Responses
 
   extend ActiveSupport::Concern
 
   def success_response data = nil, options = {}
     status = options[:status] || :ok
-    json = {
+  json = {
       success: true,
       meta: options[:meta] || {},
       errors: {}
@@ -108,5 +108,4 @@ module Concerns::Responses
       prev_page: paginated.prev_page
     }
   end
-
 end

@@ -1,6 +1,6 @@
 require 'rest-client'
 module Wowza
-  class LiveStreamDetail < WowzaBase
+  class VodStreamDetail < WowzaBase
 
     def initialize(id)
       @id = id
