@@ -35,7 +35,7 @@ page_sections:
     I''ll also have plenty of Lifted setting to be used in other game systems.'
   headline: "<strong>Shipping: </strong>Lifted: vault01"
   media:
-    image: "/uploads/2022/03/05/funded_liftedbanner_c.png"
+    image: "/uploads/2022/03/05/screen-shot-2022-03-05-at-7-58-12-am.png"
     alt_text: ''
   slug: ''
 - template: simple-footer
