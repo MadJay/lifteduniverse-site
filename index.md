@@ -3,6 +3,9 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 00:00:00 -0600
 page_sections:
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2022/03/05/color-logo-no-background.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
