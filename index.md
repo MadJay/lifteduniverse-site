@@ -6,6 +6,13 @@ page_sections:
 - template: simple-header
   block: header-3
   logo: "/uploads/2022/03/05/color-logo-no-background.png"
+- template: navigation-header-w-button
+  block: header-2
+  cta:
+    button_text: Email me on the Kickstarter Launch!
+    url: ''
+  logo: ''
+  navigation: []
 - template: content-feature
   block: feature-1
   media_alignment: Left
