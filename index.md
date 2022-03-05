@@ -9,6 +9,18 @@ page_sections:
   navigation:
   - link: https://www.kickstarter.com/projects/madjay/lifted-vault-01
     link_text: 'Lifted: vault01'
+- template: 1-column-text
+  block: one-column-1
+  headline: Lifted Universe
+  content: Lifted is a superhero setting. Select humans have been manifesting powers
+    over the last three years. Why? Play to find out. I don’t have an answer for my
+    game yet. I’ll share some thoughts. Consider this zine a Lifted in-setting data
+    dump. Pick and discard what you will, it’s your setting now. I’ve lifted ideas
+    from WildCATS, Stormwatch, Planetary, and The Authority. These are the comics
+    I grew up with and grew old with. I love underdog struggles, soap-opera drama,
+    one-liners, reboots—all those things, which are woven into the fabric of these
+    books and characters’ worlds.<br>
+  slug: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
@@ -50,5 +62,11 @@ page_sections:
   block: footer-1
   content: 'Catch me on <a href="https://playfearless.substack.com/" title="Play.Fearless
     on Substack">Play.Fearless on Substack</a> '
+- template: 4-column-footer
+  block: footer-2
+  image: ''
+  col_2: ''
+  col_3: ''
+  col_4: ''
 
 ---
