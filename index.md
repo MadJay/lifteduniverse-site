@@ -20,6 +20,12 @@ page_sections:
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
   caption: Lifted vol1
   slug: ''
+- template: 1-column-text
+  block: one-column-1
+  headline: Coming to Kickstarter Q2 2022
+  content: Lifted is Primed by Cortex, the award-winning world-building tabletop RPGsystem
+    for forging unique, compelling game experiences from a set ofmodular rules mechanics
+  slug: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
