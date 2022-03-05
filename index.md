@@ -3,6 +3,12 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 00:00:00 -0600
 page_sections:
+- template: navigation-header
+  block: header-1
+  logo: "/uploads/2022/03/05/color-logo-no-background.svg"
+  navigation:
+  - link: ''
+    link_text: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
@@ -14,21 +20,6 @@ page_sections:
     RPG</p><p class="p1">system for forging unique, compelling game experiences from
     a set of</p><p class="p1">modular rules mechanics</p>
   headline: 'Lifted Vol1. The Tabletop Roleplaying '
-- template: 1-column-text
-  block: one-column-1
-  headline: Coming to Kickstarter Q2 2022
-  content: Lifted is Primed by Cortex, the award-winning world-building tabletop RPGsystem
-    for forging unique, compelling game experiences from a set ofmodular rules mechanics
-  slug: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  slug: swap
-  headline: "<strong>Coming soon:</strong>"
-  content: A people with superpowers roleplaying game Primed by Cortex.
-  media:
-    image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
-    alt_text: Lifted vol1
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
