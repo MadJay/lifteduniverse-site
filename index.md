@@ -13,7 +13,7 @@ page_sections:
   content: <p>“Lifted is Primed by Cortex, the award-winning world-building tabletop
     RPG</p><p class="p1">system for forging unique, compelling game experiences from
     a set of</p><p class="p1">modular rules mechanics</p>
-  headline: Lifted Vol1. The Tabletop Roleplaying game Primed by Cortex
+  headline: 'Lifted Vol1. The Tabletop Roleplaying '
 - template: 1-column-text
   block: one-column-1
   headline: Coming to Kickstarter Q2 2022
