@@ -12,6 +12,10 @@ page_sections:
   media:
     image: "/uploads/2022/03/05/indomintable.png"
     alt_text: Lifted vol1
+- template: signup-bar
+  block: cta-bar
+  content: Get notified when The Lifted RPG Kickstarter launches.
+  email_recipient: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -29,15 +33,11 @@ page_sections:
     gonna do Now? <br><br><strong>Champions Now RPG</strong> is the core system I’ll
     use to stat out the <strong>Lifted</strong> universe in <em>vault01</em>, but
     I''ll also have plenty of Lifted setting to be used in other game systems.'
-  headline: 'Lifted: vault01'
+  headline: "<strong>Shipping: </strong>Lifted: vault01"
   media:
     image: "/uploads/2022/03/05/funded_liftedbanner_c.png"
     alt_text: ''
   slug: ''
-- template: signup-bar
-  block: cta-bar
-  content: Get notified when The Lifted RPG Kickstarter launches.
-  email_recipient: ''
 - template: simple-footer
   block: footer-1
   content: 'Catch me on <a href="https://playfearless.substack.com/" title="Play.Fearless
