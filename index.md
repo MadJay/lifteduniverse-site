@@ -10,8 +10,8 @@ page_sections:
   headline: "<strong>Coming soon:</strong>"
   content: A people with superpowers roleplaying game Primed by Cortex.
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
+    image: "/uploads/2022/03/05/indomintable.png"
+    alt_text: Lifted vol1
 - template: content-feature
   block: feature-1
   media_alignment: Left
