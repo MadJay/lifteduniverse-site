@@ -7,8 +7,8 @@ page_sections:
   block: header-1
   logo: "/uploads/2022/03/05/color-logo-no-background.svg"
   navigation:
-  - link: ''
-    link_text: ''
+  - link: https://www.kickstarter.com/projects/madjay/lifted-vault-01
+    link_text: 'Lifted: vault01'
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
