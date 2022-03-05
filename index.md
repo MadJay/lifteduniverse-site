@@ -10,7 +10,7 @@ page_sections:
   cta:
     enabled: true
     button_text: Get Notified!
-    url: ''
+    url: https://www.backerkit.com/call_to_action/32268698-aee3-4438-98ec-e4b4194bc844/landing
   image:
     image: ''
     alt_text: ''
