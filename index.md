@@ -20,24 +20,18 @@ page_sections:
   headline: Lifted Universe
   content: Lifted is a superhero setting. Select humans have been manifesting powers
     over the last three years. Why? Play to find out. I don’t have an answer for my
-    game yet. I’ll share some thoughts. Consider this zine a Lifted in-setting data
-    dump. Pick and discard what you will, it’s your setting now. I’ve lifted ideas
-    from WildCATS, Stormwatch, Planetary, and The Authority. These are the comics
-    I grew up with and grew old with. I love underdog struggles, soap-opera drama,
-    one-liners, reboots—all those things, which are woven into the fabric of these
-    books and characters’ worlds.<br>
+    game yet. I’ll share some thoughts. I’ve lifted ideas from WildCATS, Stormwatch,
+    Planetary, and The Authority. These are the comics I grew up with and grew old
+    with. I love underdog struggles, soap-opera drama, one-liners, reboots—all those
+    things, which are woven into the fabric of these books and characters’ worlds.<br><br>“Lifted
+    vol.1 is Primed by Cortex, the award-winning world-building tabletop RPG system
+    for forging unique, compelling game experiences from a set of modular rules mechanics"<br><br>
   slug: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
   slug: ''
   caption: ''
-- template: detail-content
-  block: text-1
-  content: <p>“Lifted is Primed by Cortex, the award-winning world-building tabletop
-    RPG</p><p class="p1">system for forging unique, compelling game experiences from
-    a set of</p><p class="p1">modular rules mechanics</p>
-  headline: 'Lifted Vol1. The Tabletop Roleplaying '
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
