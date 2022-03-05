@@ -3,20 +3,6 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 06:00:00 +0000
 page_sections:
-- template: hero-banner-w-image
-  block: hero-2
-  slug: features
-  headline: Image Universe
-  content: Some humans have suddenly begun manifesting superpowers, being Lifted.
-    The world reacts defensively and aggressively. What will you do?
-  cta:
-    enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
-  image:
-    image: "/uploads/2022/03/05/color-logo-with-background.png"
-    alt_text: Lifted!
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
