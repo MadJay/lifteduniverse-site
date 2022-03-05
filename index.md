@@ -36,7 +36,7 @@ page_sections:
   slug: ''
 - template: signup-bar
   block: cta-bar
-  content: ''
+  content: Get notified when The Lifted RPG Kickstarter launchs.
   email_recipient: ''
 - template: simple-footer
   block: footer-1
