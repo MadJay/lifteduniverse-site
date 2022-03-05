@@ -14,9 +14,9 @@ page_sections:
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
   image:
-    image: ''
+    image: "/uploads/2022/03/05/color-logo-with-background.png"
     alt_text: Lifted!
-  background_image: "/uploads/2022/03/05/color-logo-with-background.png"
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
