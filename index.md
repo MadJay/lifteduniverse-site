@@ -18,7 +18,7 @@ page_sections:
   email_recipient: ''
 - template: content-feature
   block: feature-1
-  media_alignment: Left
+  media_alignment: Right
   content: 'Select humans are manifesting powers. <strong>Project: OWL</strong> collects
     intel on these <em>Lifted beings</em>. Watching, learning without ever interfering
     or being exposed. Now as more Lifted manifestations happen in the public worldwide,
