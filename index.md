@@ -3,6 +3,18 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 00:00:00 -0600
 page_sections:
+- template: hero-banner-w-image
+  block: hero-2
+  background_image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
+  headline: The Lifted RPG has Arrived
+  cta:
+    enabled: true
+    button_text: Get Notified!
+    url: ''
+  image:
+    image: ''
+    alt_text: ''
+  content: ''
 - template: 1-column-text
   block: one-column-1
   headline: Lifted Universe
@@ -52,10 +64,6 @@ page_sections:
     image: "/uploads/2022/03/05/screen-shot-2022-03-05-at-7-58-12-am.png"
     alt_text: ''
   slug: ''
-- template: simple-footer
-  block: footer-1
-  content: 'Catch me on <a href="https://playfearless.substack.com/" title="Play.Fearless
-    on Substack">Play.Fearless on Substack</a> '
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2022/03/05/color-logo-no-background.svg"
@@ -63,9 +71,5 @@ page_sections:
     on Substack">Play.Fearless on Substack</a>
   col_3: Twitter
   col_4: 'lifted on '
-- template: detail-content
-  block: text-1
-  headline: The Lifted RPG has Arrived!
-  content: ''
 
 ---
