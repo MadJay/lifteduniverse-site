@@ -3,12 +3,6 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 00:00:00 -0600
 page_sections:
-- template: navigation-header
-  block: header-1
-  logo: "/uploads/2022/03/05/color-logo-no-background.svg"
-  navigation:
-  - link: https://www.kickstarter.com/projects/madjay/lifted-vault-01
-    link_text: 'Lifted: vault01'
 - template: 1-column-text
   block: one-column-1
   headline: Lifted Universe
@@ -67,7 +61,11 @@ page_sections:
   image: "/uploads/2022/03/05/color-logo-no-background.svg"
   col_2: Catch me on <a href="https://playfearless.substack.com/" title="Play.Fearless
     on Substack">Play.Fearless on Substack</a>
-  col_3: ''
-  col_4: ''
+  col_3: Twitter
+  col_4: 'lifted on '
+- template: detail-content
+  block: text-1
+  headline: The Lifted RPG has Arrived!
+  content: ''
 
 ---
