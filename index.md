@@ -12,11 +12,30 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-  slug: blocks
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  content: "<strong>Lifted</strong> is a supers setting. Select humans have been <em>Lifted</em>
+    to become superpowered beings by non-human intelligences for unknown purposes.
+    <strong>Project: OWL</strong> collects intel on these <em>Lifted</em>. Watching,
+    learning without ever interfering or being exposed. Now as more Lifted manifestations
+    happen in the public worldwide, <strong>Project: OWL</strong> are the experts
+    and they can no longer sit on the sidelines, and neither can you! <br><strong>Lifted</strong>
+    is my love letter to the X-Men, WildCATS, StormWatch, Planetary, and Authority.
+    These are the comics I grew up with and grew old with. I love the underdog struggles,
+    the soap opera drama, one-liners, and the reboots. The superpowered Lifted are
+    the setting’s focus. They have the full attention of governments and private industries.
+    How do you track them? Control them? How can they be weaponized? There is no Professor
+    Xavier or Jacob Marlowe - they are fictional characters. So Lifted, what are YOU
+    gonna do Now? <br><br><strong>Champions Now RPG</strong> is the core system I’ll
+    use to stat out the <strong>Lifted</strong> universe, you’ll need a copy of Champions
+    Now RPG to play. I’ll also continue reaching out to other system owners/publishers
+    for permission to include stats in their published works."
+  headline: 'Lifted: vault01 shipping!'
+  media:
+    image: "/uploads/2022/03/05/funded_liftedbanner_c.png"
+    alt_text: ''
+  slug: ''
 - template: detail-content
   block: text-1
   headline: Steps to Build a Site!
