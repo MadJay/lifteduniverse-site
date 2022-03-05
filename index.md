@@ -11,7 +11,7 @@ page_sections:
   cta:
     button_text: Email me on the Kickstarter Launch!
     url: ''
-  logo: ''
+  logo: "/uploads/2022/03/05/color-logo-no-background.svg"
   navigation: []
 - template: content-feature
   block: feature-1
