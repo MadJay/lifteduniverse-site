@@ -18,7 +18,7 @@ page_sections:
   email_recipient: ''
 - template: content-feature
   block: feature-1
-  media_alignment: Left
+  media_alignment: Right
   content: 'Select humans are manifesting powers. <strong>Project: OWL</strong> collects
     intel on these <em>Lifted beings</em>. Watching, learning without ever interfering
     or being exposed. Now as more Lifted manifestations happen in the public worldwide,
@@ -33,7 +33,7 @@ page_sections:
     gonna do Now? <br><br><strong>Champions Now RPG</strong> is the core system I’ll
     use to stat out the <strong>Lifted</strong> universe in <em>vault01</em>, but
     I''ll also have plenty of Lifted setting to be used in other game systems.'
-  headline: "<strong>Shipping: </strong>Lifted: vault01"
+  headline: "<strong>Shipping: </strong>Lifted: vault 01"
   media:
     image: "/uploads/2022/03/05/screen-shot-2022-03-05-at-7-58-12-am.png"
     alt_text: ''
