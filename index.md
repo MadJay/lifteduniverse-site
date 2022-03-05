@@ -3,16 +3,23 @@ layout: blocks
 title: The Lifted Universe
 date: 2022-03-05 00:00:00 -0600
 page_sections:
-- template: simple-header
-  block: header-3
-  logo: "/uploads/2022/03/05/color-logo-no-background.png"
-- template: navigation-header-w-button
-  block: header-2
+- template: hero-banner-w-image
+  block: hero-2
+  image:
+    image: "/uploads/2022/03/05/color-logo-no-background.svg"
+    alt_text: ''
+  background_image: ''
+  headline: ''
+  content: ''
   cta:
-    button_text: Email me on the Kickstarter Launch!
+    enabled: false
     url: ''
-  logo: "/uploads/2022/03/05/color-logo-no-background.svg"
-  navigation: []
+    button_text: ''
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
+  caption: Lifted vol1
+  slug: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
