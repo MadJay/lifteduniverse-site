@@ -64,8 +64,9 @@ page_sections:
     on Substack">Play.Fearless on Substack</a> '
 - template: 4-column-footer
   block: footer-2
-  image: ''
-  col_2: ''
+  image: "/uploads/2022/03/05/color-logo-no-background.svg"
+  col_2: Catch me on <a href="https://playfearless.substack.com/" title="Play.Fearless
+    on Substack">Play.Fearless on Substack</a>
   col_3: ''
   col_4: ''
 
