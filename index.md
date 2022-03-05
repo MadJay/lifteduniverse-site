@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: The Lifted Universe
-date: 2022-03-05 06:00:00 +0000
+date: 2022-03-05 00:00:00 -0600
 page_sections:
 - template: content-feature
   block: feature-1
