@@ -10,7 +10,7 @@ page_sections:
   headline: "<strong>Coming soon:</strong>"
   content: A people with superpowers roleplaying game Primed by Cortex.
   media:
-    image: "/uploads/2022/03/05/indomintable.png"
+    image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
     alt_text: Lifted vol1
 - template: signup-bar
   block: cta-bar
