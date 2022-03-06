@@ -5,14 +5,14 @@ date: 2022-03-05 00:00:00 -0600
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  background_image: ''
+  background_image: "/uploads/2022/03/06/lindomintable_tease-cortex.png"
   headline: The Lifted RPG
   cta:
     enabled: true
     button_text: Get Notified!
     url: https://www.backerkit.com/call_to_action/32268698-aee3-4438-98ec-e4b4194bc844/landing
   image:
-    image: "/uploads/2022/03/06/lindomintable_tease-cortex.png"
+    image: "/uploads/2018/06/21/hero-2-bg.png"
     alt_text: ''
   content: ''
 - template: 1-column-text
