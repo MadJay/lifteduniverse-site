@@ -33,9 +33,9 @@ page_sections:
   media:
     image: "/uploads/2022/03/06/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1.png"
     alt_text: ''
-  headline: ''
+  headline: Lifted vol1 Core Rules
   slug: ''
-  content: ''
+  content: Stuff
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
