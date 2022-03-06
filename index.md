@@ -17,15 +17,11 @@ page_sections:
   content: ''
 - template: 1-column-text
   block: one-column-1
-  headline: Lifted Universe
-  content: Lifted is a superhero setting. Select humans have been manifesting powers
-    over the last three years. Why? Play to find out. I don’t have an answer for my
-    game yet. I’ll share some thoughts. I’ve lifted ideas from WildCATS, Stormwatch,
-    Planetary, and The Authority. These are the comics I grew up with and grew old
-    with. I love underdog struggles, soap-opera drama, one-liners, reboots—all those
-    things, which are woven into the fabric of these books and characters’ worlds.<br><br>“Lifted
-    vol.1 is Primed by Cortex, the award-winning world-building tabletop RPG system
-    for forging unique, compelling game experiences from a set of modular rules mechanics"<br><br>
+  headline: Time to get LIFTED!
+  content: "<em>Some humans are getting superpowers I hear. <br>A techno-aggressive
+    world reacts out of fear.<br>They want to contain you.<br>Recruit, weaponize and
+    train you.<br>What will you do?<br>Get Lifted.</em><br><strong>--  The Jersey
+    Banshee </strong>"
   slug: ''
 - template: content-feature
   block: feature-1
@@ -36,11 +32,6 @@ page_sections:
   headline: Lifted vol1 Core Rules
   slug: ''
   content: Stuff
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
-  slug: ''
-  caption: ''
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
