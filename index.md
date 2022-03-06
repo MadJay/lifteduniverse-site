@@ -12,7 +12,7 @@ page_sections:
     button_text: Get Notified!
     url: https://www.backerkit.com/call_to_action/32268698-aee3-4438-98ec-e4b4194bc844/landing
   image:
-    image: "/uploads/2022/03/06/lindomintable_tease-cortex-1.png"
+    image: "/uploads/2022/03/06/lindomintable_tease-cortex.png"
     alt_text: ''
   content: ''
 - template: 1-column-text
