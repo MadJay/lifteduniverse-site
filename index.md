@@ -17,11 +17,11 @@ page_sections:
   content: ''
 - template: 1-column-text
   block: one-column-1
-  headline: Time to get LIFTED!
-  content: "<em>Some humans are getting superpowers I hear. <br>A techno-aggressive
-    world reacts out of fear.<br>They want to contain you.<br>Recruit, weaponize and
-    train you.<br>What will you do?<br>Get Lifted.</em><br><strong>--  The Jersey
-    Banshee </strong>"
+  headline: Get LIFTED!
+  content: "<em>Some humans are getting superpowers I hear. <br>A techno-mad world
+    reacts out of fear.<br>They want to contain you.<br>Recruit, weaponize and train
+    you.<br>'cause you gifted.<br>What will you do?<br>Lifted.<br>  </em><strong>--
+    The Jersey Banshee</strong>"
   slug: ''
 - template: content-feature
   block: feature-1
