@@ -27,6 +27,15 @@ page_sections:
     vol.1 is Primed by Cortex, the award-winning world-building tabletop RPG system
     for forging unique, compelling game experiences from a set of modular rules mechanics"<br><br>
   slug: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  media:
+    image: "/uploads/2022/03/06/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1.png"
+    alt_text: ''
+  headline: ''
+  slug: ''
+  content: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/05/lindomintable_tease-cortex.png"
