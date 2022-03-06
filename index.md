@@ -36,7 +36,9 @@ page_sections:
     techno-aggressive organizations, otherworldly intelligences, and other Lifted,
     all who want to control everyone and everything. Make your choices in a world
     where powers are extraordinary and the stigma of having them is growing stronger
-    each day.
+    each day.<br><br>Lifted is Primed by Cortex, the award-winning world-building
+    tabletop RPG system for forging unique, compelling game experiences from a set
+    of modular rules mechanics.<br><br><strong>Heros not included.</strong>
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
