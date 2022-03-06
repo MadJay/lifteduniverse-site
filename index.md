@@ -25,13 +25,18 @@ page_sections:
   slug: ''
 - template: content-feature
   block: feature-1
-  media_alignment: Right
+  media_alignment: Left
   media:
     image: "/uploads/2022/03/06/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1.png"
     alt_text: ''
-  headline: Lifted vol1 Core Rules
+  headline: 'Lifted Vol1: Core Book'
   slug: ''
-  content: Stuff
+  content: Lifted  Vol1 is a roleplaying game about people with superpowers in a world
+    unbalanced by superpowers. You will take on the roles of people struggling against
+    techno-aggressive organizations, otherworldly intelligences, and other Lifted,
+    all who want to control everyone and everything. Make your choices in a world
+    where powers are extraordinary and the stigma of having them is growing stronger
+    each day.
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
