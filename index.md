@@ -29,16 +29,16 @@ page_sections:
   media:
     image: "/uploads/2022/03/06/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1.png"
     alt_text: ''
-  headline: 'Lifted Vol1: Core Book'
+  headline: 'Lifted Vol 1: Core Book'
   slug: ''
-  content: Lifted  Vol1 is a roleplaying game about people with superpowers in a world
-    unbalanced by superpowers. You will take on the roles of people struggling against
-    techno-aggressive organizations, otherworldly intelligences, and other Lifted,
-    all who want to control everyone and everything. Make your choices in a world
-    where powers are extraordinary and the stigma of having them is growing stronger
-    each day.<br><br>Lifted is Primed by Cortex, the award-winning world-building
+  content: "<strong>Lifted Vol 1</strong> is a roleplaying game about people with
+    superpowers in a world unbalanced by superpowers. You will take on the roles of
+    people struggling against techno-aggressive organizations, otherworldly intelligences,
+    and other Lifted, all who want to control everyone and everything. Make your choices
+    in a world where powers are extraordinary and the stigma of having them is growing
+    stronger each day.<br><br>Lifted is Primed by Cortex, the award-winning world-building
     tabletop RPG system for forging unique, compelling game experiences from a set
-    of modular rules mechanics.<br><br><strong>Heros not included.</strong>
+    of modular rules mechanics.<br><br><strong>Heros not included.</strong>"
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
