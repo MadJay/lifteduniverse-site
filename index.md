@@ -72,6 +72,6 @@ page_sections:
   col_2: <a href="https://playfearless.substack.com/" title="Play.Fearless on Substack"><img
     src="/uploads/2022/03/06/playfearless_banner.png" title="Play.Fearless"></a>
   col_3: ''
-  col_4: ''
+  col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twiiter"><img src="/uploads/2022/03/06/twitter_logo_blue-150x150.png"></a>
 
 ---
