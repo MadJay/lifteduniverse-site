@@ -39,12 +39,6 @@ page_sections:
     tabletop RPG system for forging unique, compelling game experiences from a set
     of modular rules mechanics.<br><br>Signup to be emailed when the Lifted Vol1 Kickstarter
     launches.<br><strong>Heros not included.<br></strong>"
-- template: 1-column-text
-  block: one-column-1
-  headline: Join our Kickstarter Launch List
-  content: <a href="https://madjayzero.m-pages.com/hXSGVt/liftedvo1subscribe" title="">Sign-up</a>
-    and get notified when we launch on Kickstarter!
-  slug: ''
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
@@ -80,4 +74,5 @@ page_sections:
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><a
     href="https://pin.it/4slrCom" title="Lifted on Pinterest"><img src="/uploads/2022/03/07/icons8-pinterest-100.png"></a>
+
 ---
