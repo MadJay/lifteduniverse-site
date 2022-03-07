@@ -74,6 +74,6 @@ page_sections:
   col_3: <a href="https://www.patreon.com/madjayzero" title="MadJay on Patreon"><img
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><a
-    href="" title=""><img src="/uploads/2022/03/07/icons8-pinterest-100.png"></a>
+    href="https://pin.it/4slrCom" title="Lifted on Pinterest"><img src="/uploads/2022/03/07/icons8-pinterest-100.png"></a>
 
 ---
