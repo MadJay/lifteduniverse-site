@@ -18,10 +18,9 @@ page_sections:
 - template: 1-column-text
   block: one-column-1
   headline: Get LIFTED!
-  content: "<em>Some humans are getting superpowers I hear. <br>A techno-mad world
-    reacts out of fear.<br>They want to contain you.<br>Recruit, weaponize and train
-    you.<br>'cause you gifted.<br>What will you do?<br>Lifted.<br>  </em><strong>--
-    The Jersey Banshee</strong>"
+  content: "<em>You got superpowers, I hear.<br>A mad world acts, out of fear.<br>They
+    got tech to detain you<br>recruit, weaponize and train you.<br>'cause you gifted.<br>What
+    will you do?<br>'cause you Lifted.<br> </em><strong>-- The Jersey Banshee</strong>"
   slug: ''
 - template: content-feature
   block: feature-1
