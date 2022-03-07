@@ -76,5 +76,10 @@ page_sections:
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><img
     src="/uploads/2022/03/07/icons8-facebook-100.png"><img src="/uploads/2022/03/07/icons8-instagram-100.png"><img
     src="/uploads/2022/03/07/icons8-pinterest-100.png"><img src="/uploads/2022/03/07/icons8-reddit-100.png">
+- template: detail-content
+  block: text-1
+  content: '<p><img src="https://miro.medium.com/proxy/0*arbwDc4yZBUAzvG2.jpg" alt="X-Men
+    by Jonathan Hickman: Reading Order | by Justin Beeson | Medium"></p>'
+  headline: ''
 
 ---
