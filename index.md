@@ -48,7 +48,7 @@ page_sections:
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
-  email_recipient: madjayzero+lifted@gmail.com
+  email_recipient: f/mayvjajb
 - template: content-feature
   block: feature-1
   media_alignment: Right
