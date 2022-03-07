@@ -69,7 +69,7 @@ page_sections:
   slug: ''
 - template: 4-column-footer
   block: footer-2
-  image: ''
+  image: "/uploads/2022/03/05/color-logo-no-background.png"
   col_2: <a href="https://playfearless.substack.com/" title=""><img src="/uploads/2022/03/07/playfearless_banner-1.png"></a>
   col_3: <a href="https://www.patreon.com/madjayzero" title="MadJay on Patreon"><img
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
