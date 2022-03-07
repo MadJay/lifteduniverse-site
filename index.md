@@ -51,16 +51,17 @@ page_sections:
     intel on these <em>Lifted beings</em>. Watching, learning without ever interfering
     or being exposed. Now as more Lifted manifestations happen in the public worldwide,
     <strong>Project: OWL</strong> are the experts and they can no longer sit on the
-    sidelines, and neither can you! <br><strong>Lifted</strong> is my love letter
+    sidelines, and neither can you! <br><br><strong>Lifted</strong> is my love letter
     to the X-Men, WildCATS, StormWatch, Planetary, and Authority. These are the comics
     I grew up with and grew old with. I love the underdog struggles, the soap opera
     drama, one-liners, and the reboots. The superpowered Lifted are the setting’s
     focus. They have the full attention of governments and private industries. How
     do you track them? Control them? How can they be weaponized? There is no Professor
-    Xavier or Jacob Marlowe - they are fictional characters. So Lifted, what are YOU
-    gonna do Now? <br><br><strong>Champions Now RPG</strong> is the core system I’ll
-    use to stat out the <strong>Lifted</strong> universe in <em>vault01</em>, but
-    I''ll also have plenty of Lifted setting to be used in other game systems.'
+    Xavier or Jacob Marlowe - they are fictional characters. <br>So Lifted, what are
+    YOU gonna do Now? <br><br><strong>Champions Now RPG</strong> is the core system
+    I’ll use to stat out the <strong>Lifted</strong> universe in <em>vault01</em>,
+    but I''ll also have plenty of Lifted setting to be used in other game systems.<br><br><a
+    href="Funded by Kickstarter" title="Lifted on Kickstarter">Funded by Kickstarter</a>'
   headline: "<strong>Shipping: </strong>Lifted: vault 01"
   media:
     image: "/uploads/2022/03/05/screen-shot-2022-03-05-at-7-58-12-am.png"
