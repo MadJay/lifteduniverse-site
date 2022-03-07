@@ -30,20 +30,21 @@ page_sections:
     alt_text: ''
   headline: 'Lifted Vol 1: Core Book'
   slug: ''
-  content: <strong>Lifted Vol 1</strong> is a roleplaying game about people with superpowers
-    in a world unbalanced by superpowers. You will take on the roles of people struggling
-    against techno-aggressive organizations, otherworldly intelligences, and other
-    Lifted, all who want to control everyone and everything. Make your choices in
-    a world where powers are extraordinary and the stigma of having them is growing
+  content: "<strong>Lifted Vol 1</strong> is a roleplaying game about people with
+    superpowers in a world unbalanced by superpowers. You will take on the roles of
+    people struggling against techno-aggressive organizations, otherworldly intelligences,
+    and other Lifted, all who want to control everyone and everything. Make your choices
+    in a world where powers are extraordinary and the stigma of having them is growing
     stronger each day.<br><br>Lifted is Primed by Cortex, the award-winning world-building
     tabletop RPG system for forging unique, compelling game experiences from a set
     of modular rules mechanics.<br><br>Signup to be emailed when the Lifted Vol1 Kickstarter
-    launches.<br><strong>Heros not included.<br><br></strong>&lt;script&gt;if(!window.mootrack){
-    !function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var
-    a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return
-    t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","<a
-    href="https://cdn.stat-track.com/statics/moosend-tracking.min.js" title="https://cdn.stat-track.com/statics/moosend-tracking.min.js">https://cdn.stat-track.com/statics/moosend-tracking.min.js</a>","mootrack");
-    } mootrack('loadForm', '297dedcc402f40069b0cd19d349bf301');&lt;/script&gt;
+    launches.<br><strong>Heros not included.<br></strong>"
+- template: 1-column-text
+  block: one-column-1
+  headline: Join our Kickstarter Launch List
+  content: <a href="https://madjayzero.m-pages.com/hXSGVt/liftedvo1subscribe" title="">Sign-up</a>
+    and get notified when we launch on Kickstarter!
+  slug: ''
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
