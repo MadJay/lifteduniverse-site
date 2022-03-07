@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: The Lifted Universe
-date: 2022-03-05 00:00:00 -0600
+date: 2022-03-05T00:00:00.000-06:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -42,7 +42,7 @@ page_sections:
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
-  email_recipient: ''
+  email_recipient: madjayzero+lifted@gmail.com
 - template: content-feature
   block: feature-1
   media_alignment: Right
