@@ -20,8 +20,8 @@ page_sections:
   headline: Get LIFTED!
   content: "<em>You got superpowers, I hear.<br>And a mad world reacts, out of fear.<br>They
     got mad tech to detain you<br>recruit, weaponize and train you.<br>'cause you
-    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- The Jersey
-    Banshee</strong>"
+    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- 'Boken
+    and the Banshee</strong>"
   slug: ''
 - template: content-feature
   block: feature-1
