@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2022/03/31/1.png"
-  headline: The Lifted RPG coming to Kickstarter!
+  headline: The Lifted RPG coming to Kickstarter!!
   cta:
     enabled: true
     button_text: Get Notified!
