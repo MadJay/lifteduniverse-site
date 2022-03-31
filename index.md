@@ -40,6 +40,11 @@ page_sections:
     tabletop RPG system for forging unique, compelling game experiences from a set
     of modular rules mechanics.<br><br>Signup to be emailed when the Lifted Vol1 Kickstarter
     launches.<br><strong>Heros not included.<br></strong>"
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2022/03/31/1.png"
+  slug: ''
+  caption: ''
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
