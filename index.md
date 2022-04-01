@@ -12,7 +12,7 @@ page_sections:
     button_text: Get Notified!
     url: https://www.backerkit.com/call_to_action/32268698-aee3-4438-98ec-e4b4194bc844/landing
   image:
-    image: "/uploads/2022/03/31/1.png"
+    image: ''
     alt_text: ''
   content: ''
 - template: 1-column-text
@@ -23,6 +23,11 @@ page_sections:
     gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- Hoboken
     and the Banshee</strong>"
   slug: ''
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2022/03/31/1.png"
+  slug: ''
+  caption: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -40,11 +45,6 @@ page_sections:
     tabletop RPG system for forging unique, compelling game experiences from a set
     of modular rules mechanics.<br><br>Signup to be emailed when the Lifted Vol1 Kickstarter
     launches.<br><strong>Heros not included.<br></strong>"
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2022/03/31/1.png"
-  slug: ''
-  caption: ''
 - template: signup-bar
   block: cta-bar
   content: Get notified when The Lifted RPG Kickstarter launches.
