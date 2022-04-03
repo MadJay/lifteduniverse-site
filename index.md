@@ -32,7 +32,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/2022/04/02/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1-1.png"
+    image: "/uploads/2022/04/03/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1-1-copy.png"
     alt_text: ''
   headline: 'Lifted Vol 1: Core Book'
   slug: ''
