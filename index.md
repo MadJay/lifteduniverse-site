@@ -49,11 +49,38 @@ page_sections:
     by Cortex</span></strong>, the award-winning world-building tabletop RPG system
     for forging unique, compelling game experiences from a set of modular rules mechanics.
     The same system that made Marvel Heroic RPG AMAZING!'
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
+  slug: ''
+  caption: ''
 - template: 1-column-text
   block: one-column-1
-  headline: ''
+  headline: 'The Lifted Vol1: INDOMITABLE RPG'
   slug: ''
-  content: ''
+  content: '<strong><span class="bold">Lifted: Indomitable</span></strong> is a roleplaying
+    game about people manifesting superpowers in a world unbalanced by treacherous
+    secrets and advanced technology run amok. You will take on the roles of people
+    with powers struggling against techno-aggressive organizations, otherworldly intelligences,
+    and other powerful Lifted, all of who want to control everyone and everything.
+    Make your choices in a world where powers are extraordinary, and the stigma of
+    having them grows stronger each day.<br>Lifted is inspired by comics like WildCATS,
+    Stormwatch, Planetary, The Authority, and of course, all the X-Men books. The
+    Lifted are the center of attention. They have the focus of governments, private
+    enterprises, and other ne''er do wells. These organizations have humanity-based
+    fears: How do you track these Lifted people? How do you control them? Can they
+    be weaponized? Can they be stopped? or neutralized, contained? Will they subjugate
+    humans? Are the Lifted connected to the <em><span class="text-italic">exclusion
+    zone</span></em> phenomena?<br>Movies like Power, Bright, Spectral, and Code 8
+    are great examples of these fears given resources and were inspirational to this
+    setting. There is no Professor Xavier or Jacob Marlowe, no Superman—they never
+    existed in this world; It’s on YOU as a Lifted character to make or break the
+    day. What are YOU going to do Now? Game Moderators, you won’t need to wait around
+    to see what these new characters will do; there is a Lifted Universe of NPCs with
+    agendas to get done.<br><br><strong><span class="bold">Lifted is Primed by Cortex</span></strong>,
+    the award-winning world-building tabletop RPG system for forging unique, compelling
+    game experiences from a set of modular rules mechanics. The same system that made
+    Marvel Heroic RPG AMAZING!'
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/31/1.png"
