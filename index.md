@@ -57,6 +57,14 @@ page_sections:
   image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
   slug: ''
   caption: ''
+- template: 1-column-text
+  block: one-column-1
+  headline: Get LIFTED!
+  content: "<em>You got superpowers, I hear.<br>And a mad world reacts, out of fear.<br>They
+    got mad tech to contain you<br>recruit, weaponize and train you.<br>'cause you
+    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- Hoboken
+    and the Banshee</strong>"
+  slug: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -85,18 +93,10 @@ page_sections:
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2022/04/02/logo_t.png"
-  col_2: <a href="https://playfearless.substack.com/" title=""><img src="/uploads/2022/08/15/madjay-4.png"></a>
   col_3: <a href="https://www.patreon.com/madjayzero" title="MadJay on Patreon"><img
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><a
     href="https://pin.it/4slrCom" title="Lifted on Pinterest"><img src="/uploads/2022/03/07/icons8-pinterest-100.png"></a>
-- template: 1-column-text
-  block: one-column-1
-  headline: Get LIFTED!
-  content: "<em>You got superpowers, I hear.<br>And a mad world reacts, out of fear.<br>They
-    got mad tech to contain you<br>recruit, weaponize and train you.<br>'cause you
-    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- Hoboken
-    and the Banshee</strong>"
-  slug: ''
+  col_2: <img src="/uploads/2022/08/15/madjay-4.png">
 
 ---
