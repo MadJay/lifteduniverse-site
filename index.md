@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   background_image: "/uploads/2022/08/15/twitterheaders.png"
   image:
-    image: ''
+    image: "/uploads/2022/08/15/twitterheaders.png"
     alt_text: ''
   headline: ''
   content: ''
