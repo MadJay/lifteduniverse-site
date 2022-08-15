@@ -6,6 +6,18 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2022/08/15/twitterheaders.png"
+  image:
+    image: ''
+    alt_text: ''
+  headline: ''
+  content: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  background_image: "/uploads/2022/08/15/twitterheaders.png"
   headline: 'The Lifted Vol1: INDOMITABLE RPG '
   cta:
     enabled: true
