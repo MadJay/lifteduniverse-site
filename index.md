@@ -51,7 +51,7 @@ page_sections:
     stronger each day.<br><br>Lifted is Primed by Cortex, the award-winning world-building
     tabletop RPG system for forging unique, compelling game experiences from a set
     of modular rules mechanics.<br><br>Signup to be emailed when the Lifted Vol1 Kickstarter
-    launches.<br><strong>Heros not included.<br></strong>"
+    launches.<br><strong>Heros not included.</strong>"
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
@@ -92,7 +92,7 @@ page_sections:
   slug: ''
 - template: 4-column-footer
   block: footer-2
-  image: "/uploads/2022/04/02/logo_t.png"
+  image: "/uploads/2022/08/15/mockup-of-a-hard-cover-book-on-a-table-with-gadgets-3407-el1-3-1.png"
   col_3: <a href="https://www.patreon.com/madjayzero" title="MadJay on Patreon"><img
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><a
