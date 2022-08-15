@@ -5,9 +5,9 @@ date: 2022-03-05T00:00:00.000-06:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2022/08/15/twitterheaders.png"
+  background_image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
   image:
-    image: "/uploads/2022/08/15/twitterheaders.png"
+    image: ''
     alt_text: ''
   headline: ''
   content: ''
@@ -51,12 +51,9 @@ page_sections:
     The same system that made Marvel Heroic RPG AMAZING!'
 - template: 1-column-text
   block: one-column-1
-  headline: Get LIFTED!
-  content: "<em>You got superpowers, I hear.<br>And a mad world reacts, out of fear.<br>They
-    got mad tech to contain you<br>recruit, weaponize and train you.<br>'cause you
-    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- Hoboken
-    and the Banshee</strong>"
+  headline: ''
   slug: ''
+  content: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2022/03/31/1.png"
@@ -114,5 +111,13 @@ page_sections:
     src="/uploads/2022/03/07/madjayzero-banner.png"></a>
   col_4: <a href="https://twitter.com/MadJayZero" title="MadJay on Twitter"><img src="/uploads/2022/03/07/icons8-twitter-100.png"></a><a
     href="https://pin.it/4slrCom" title="Lifted on Pinterest"><img src="/uploads/2022/03/07/icons8-pinterest-100.png"></a>
+- template: 1-column-text
+  block: one-column-1
+  headline: Get LIFTED!
+  content: "<em>You got superpowers, I hear.<br>And a mad world reacts, out of fear.<br>They
+    got mad tech to contain you<br>recruit, weaponize and train you.<br>'cause you
+    gifted.<br>What will you do?<br>'cause you Lifted.<br> </em><strong>-- Hoboken
+    and the Banshee</strong>"
+  slug: ''
 
 ---
