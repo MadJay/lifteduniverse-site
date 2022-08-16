@@ -5,9 +5,9 @@ date: 2022-03-05T00:00:00.000-06:00
 page_sections:
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2022/03/31/1.png"
+  image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
   slug: ''
-  caption: ''
+  caption: Heroes Not Included.
 - template: 1-column-text
   block: one-column-1
   headline: 'The Lifted Vol1: INDOMITABLE RPG'
@@ -54,7 +54,7 @@ page_sections:
     launches.<br><strong>Heros not included.</strong>"
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2022/08/15/zero-1640-x-640-px.png"
+  image: "/uploads/2022/03/31/1.png"
   slug: ''
   caption: ''
 - template: 1-column-text
